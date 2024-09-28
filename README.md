@@ -1,8 +1,10 @@
 # lastfm-wordcloud
 
-Scripts to generate a wordcloud with tags from artists listened by a Last.fm user.
+Script to generate a wordcloud with tags from artists listened by a Last.fm user.
 
-The scripts need a valid config file with your lastfm API keys (get them at last.fm/api.) in a `config.ini` file (see `config_sample.ini` for an example).
+The script needs a valid config file with your lastfm API keys (get them at last.fm/api.) in a `config.ini` file (see `config_sample.ini` for an example).
+
+![wordcloud-sample](imgs/wordcloud1.png)
 
 ## Requirements
 
