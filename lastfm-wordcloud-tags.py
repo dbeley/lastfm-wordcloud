@@ -39,7 +39,7 @@ def custom_color_func(
 ):
     # Normalize the font size to get a value between 0 and 1
     normalized_font_size = (
-        font_size / 250
+        font_size / 350
     )  # Adjust this based on the expected max font size
     normalized_font_size = min(
         max(normalized_font_size, 0), 1
