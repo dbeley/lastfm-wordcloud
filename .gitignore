@@ -2,3 +2,4 @@ Exports/
 config.ini
 .venv/
 .direnv
+__pycache__

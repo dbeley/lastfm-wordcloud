@@ -25,20 +25,20 @@ The exported images will be available in the `Exports` folder.
 ## Usage
 
 ```
-python lastfm-wordcloud-tags.py -u USERNAME -t overall
+python -m lastfm-wordcloud -u USERNAME -t overall
 ```
 
 ## Help
 
 ```
-python lastfm-wordcloud-tags.py -h
+python -m lastfm-wordcloud -h
 ```
 
 ```
-usage: lastfm-wordcloud-tags.py [-h] [--debug] [--username USERNAME]
-                                [--timeframe TIMEFRAME]
-                                [--artists_count ARTISTS_COUNT]
-                                [--top_tags_count TOP_TAGS_COUNT]
+usage: lastfm-wordcloud [-h] [--debug] [--username USERNAME]
+                        [--timeframe TIMEFRAME]
+                        [--artists_count ARTISTS_COUNT]
+                        [--top_tags_count TOP_TAGS_COUNT]
 
 Create a wordcloud of the genres listened by one or several lastfm users.
 
