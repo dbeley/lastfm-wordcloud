@@ -25,17 +25,17 @@ The exported images will be available in the `Exports` folder.
 ## Usage
 
 ```
-python -m lastfm-wordcloud -u USERNAME -t overall
+python -m lastfm_wordcloud -u USERNAME -t overall
 ```
 
 ## Help
 
 ```
-python -m lastfm-wordcloud -h
+python -m lastfm_wordcloud -h
 ```
 
 ```
-usage: lastfm-wordcloud [-h] [--debug] [--username USERNAME]
+usage: lastfm_wordcloud [-h] [--debug] [--username USERNAME]
                         [--timeframe TIMEFRAME]
                         [--artists_count ARTISTS_COUNT]
                         [--top_tags_count TOP_TAGS_COUNT]
