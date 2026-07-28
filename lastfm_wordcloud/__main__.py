@@ -1,16 +1,15 @@
-from io import BytesIO
-import pylast
+import argparse
 import configparser
 import logging
 import time
-import math
-import argparse
+from io import BytesIO
 from pathlib import Path
-import random
-import matplotlib.pyplot as plt
+
 import matplotlib.cm as cm
-from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+import pylast
 from tqdm import tqdm
+from wordcloud import WordCloud
 
 logger = logging.getLogger()
 logging.getLogger("pylast").setLevel(logging.WARNING)
