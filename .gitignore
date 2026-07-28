@@ -3,3 +3,8 @@ config.ini
 .venv/
 .direnv
 __pycache__
+result
+result-*
+*.egg-info/
+dist/
+build/

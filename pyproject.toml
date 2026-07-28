@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lastfm-wordcloud"
+version = "0.1.0"
+description = "Generate wordcloud from genre tags of a lastfm user"
+authors = [{name = "dbeley", email = "dbeley@protonmail.com"}]
+license = {text = "GPL-3.0-only"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pylast",
+    "wordcloud",
+    "matplotlib",
+    "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/dbeley/lastfm-wordcloud"
+
+[project.scripts]
+lastfm_wordcloud = "lastfm_wordcloud.__main__:main"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
