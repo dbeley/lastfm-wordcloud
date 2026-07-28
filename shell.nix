@@ -1,13 +1,7 @@
-with import <nixpkgs> { };
-
-pkgs.mkShell {
-  buildInputs = [
-    pkgs.python3
-
-    python3Packages.pylast
-    python3Packages.tqdm
-    python3Packages.wordcloud
-    python3Packages.black
-  ];
-
-}
+(import (
+  fetchTarball {
+    url = "https://github.com/edolstra/flake-compat/archive/master.tar.gz";
+  }
+) {
+  src = ./.;
+}).shellNix
