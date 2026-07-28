@@ -4,17 +4,17 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lastfm-wordcloud"
-version = "0.1.0"
+version = "0.2.0"
 description = "Generate wordcloud from genre tags of a lastfm user"
 authors = [{name = "dbeley", email = "dbeley@protonmail.com"}]
 license = {text = "GPL-3.0-only"}
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "pylast",
-    "wordcloud",
-    "matplotlib",
-    "tqdm",
+    "pylast>=7.1",
+    "wordcloud>=1.9.6",
+    "matplotlib>=3.11",
+    "tqdm>=4.70",
 ]
 
 [project.urls]
