@@ -24,10 +24,9 @@ jobs:
       run: |
         curl -LsSf https://astral.sh/uv/install.sh | sh
         echo "$HOME/.cargo/bin" >> $GITHUB_PATH
-    - name: Install dependencies
+    - name: Install ruff
       run: |
-        uv pip install --system ruff pylast wordcloud matplotlib tqdm
-        uv pip install --system -e .
+        uv pip install --system ruff
     - name: Lint with ruff
       run: |
         ruff check .
